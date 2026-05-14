@@ -9,6 +9,7 @@
 # The script looks in syslog for all unique senders from a given domain for a given timeframe.
 # It should filter most SRS (Sender Rewrite Scheme) type senders.
 # Note: If you need to include SRS addresses for a particular purpose, just comment out that one line.
+# Note: There may be some other addresses you want to ignore such as Bounce or NoReply or some internal usage sender.  You can add these exemptions or filter them when reviewing the output file.
 # John Cole - 2023
 
 # Default values
