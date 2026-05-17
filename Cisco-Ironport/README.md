@@ -21,3 +21,13 @@ Designed for:
 ```bash
 ./Find60DaySenders.sh -d example.com -l ./ironport -t 30 -o example-20260517.txt
 ./parse-ip-GetDeliveryStatusForSender.sh ./ironport/mail.log > /tmp/bob-20260101.tx
+
+
+## Development Process
+
+This project was developed using an iterative AI-assisted workflow.
+
+The original queries were created by reviewing syslog entries and determining the information that
+was needed to be captured.  After I created the initial queries, I used AI tooling to accelerate
+scripting of the queries into a reusable package.  Testing was then performed to verify the results.
+This AI integration greatly increased efficiency of the support team.
