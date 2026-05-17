@@ -8,6 +8,7 @@
 # It is most useful if the sender is one of your own domains.
 # example usage is:
 # ./parse-ip-GetDeliveryStatusForSender.sh ./ironport/mail.log > /tmp/bob-20260101.txt
+# Note: You need to be storing the Ironport ESA logs to a syslog server or you have downloaded the mail log from the ESA.
 #
 # John Cole - 2025
 
