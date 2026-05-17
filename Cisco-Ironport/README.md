@@ -19,7 +19,10 @@ Designed for:
 ## Example Usage
 
 ```bash
+Usage: Find60DaySenders.sh -d domain.com [-l logdir] [-t days] [-o outputfile]
 ./Find60DaySenders.sh -d example.com -l ./ironport -t 30 -o example-20260517.txt
+
+Usage: parse-ip-GetDeliveryStatusForSender.sh logfile
 ./parse-ip-GetDeliveryStatusForSender.sh ./ironport/mail.log > /tmp/bob-20260101.txt
 ```
 
